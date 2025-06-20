@@ -1,0 +1,58 @@
+            <div class="row">
+                        <div class="col-sm-12">
+                            <!-- Interests Section -->
+                            <section id="interests" class="container py-2">
+                                <h2>Other Interests</h2>
+
+                                <div class="row mb-4">
+                                    <div class="col">
+
+                                        <p>Some winter biking....</p>
+                                        <img id="wbiking" style="width: 50%;" src="./winter-biking.jpg"
+                                            alt="Climbing 1">
+                                        <script>
+                                            w = document.getElementById("wbiking")
+                                            w.addEventListener("mouseover", (event) => {
+                                                w.src = "./winter-biking.gif"
+                                            })
+                                            w.addEventListener("mouseout", (event) => { w.src = "./winter-biking.jpg" })
+                                        </script>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <p><strong>Films</strong></p>
+                                        <p> Some films that have left a lasting
+                                            impression on me... They all seem to have some themes of existential
+                                            nihilism, hmmm I wonder why :) .</p>
+                                        <div class="movie-lists">
+                                            <!-- Béla Tarr (single film) -->
+                                            <div class="movie-section">
+                                                <h4>Béla Tarr</h4>
+                                                <p>The Turin Horse (2011)</p>
+                                                <img src="./film posters/turin.jpg" alt="The Turin Horse">
+                                            </div>
+                                            <!-- Michael Haneke (manual carousel for two films) -->
+                                            <div class="movie-section">
+                                                <h4>Michael Haneke</h4>
+                                                <p>The Seventh Continent (1989)</p>
+
+                                                <img src="./film posters/TSC.webp" class="d-block w-100"
+                                                    alt="The Seventh Continent">
+
+                                            </div>
+                                            <!-- Mike Leigh (manual carousel for two films) -->
+                                            <div class="movie-section">
+                                                <h4>Mike Leigh</h4>
+                                                <p>Naked (1993)</p>
+                                                <img src="./film posters/Naked.jpg" class="d-block w-100" alt="Naked">
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
